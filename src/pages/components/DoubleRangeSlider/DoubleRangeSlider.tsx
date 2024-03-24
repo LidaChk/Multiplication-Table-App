@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import { RangeContext } from '../../index';
 import { RangeSlider } from '@mantine/core';
 import style from './double-range-slider.module.scss';
+import { RangeContext } from '../main/main';
 
 const marks = [
   { value: 1, label: '1' },
