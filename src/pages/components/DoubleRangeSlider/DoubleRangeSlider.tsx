@@ -21,22 +21,19 @@ const DoubleRangeSlider: React.FC = () => {
     useContext(RangeContext);
 
   return (
-    <div className={style["double-range-slider"]}>
-      {' '}
-      <RangeSlider
-        minRange={1}
-        min={1}
-        max={10}
-        step={1}
-        defaultValue={[minMultiplier, maxMultiplier]}
-        marks={marks}
-        onChange={([min, max]) => [
-          setMinMultiplier(min),
-          setMaxMultiplier(max),
-        ]}
-        labelAlwaysOn
-      />
-    </div>
+    <RangeSlider
+      minRange={1}
+      min={1}
+      max={10}
+      step={1}
+      defaultValue={[minMultiplier, maxMultiplier]}
+      marks={marks}
+      onChange={([min, max]) => [setMinMultiplier(min), setMaxMultiplier(max)]}
+      labelAlwaysOn
+      mih={'2em'}
+      miw={320}
+      color='#b344fb'
+    />
   );
 };
 

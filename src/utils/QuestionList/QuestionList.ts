@@ -15,7 +15,7 @@ export class QuestionList {
   private generateQuestionList({minMultiplier, maxMultiplier}: QuestionListParams): void {
     for (let i = minMultiplier; i <= maxMultiplier; i++) {
       for (let j = 1; j <= 10; j++) {
-        this.questionList.push({multiplicand: i, multiplier: j});
+        this.questionList.push({multiplicand: i, multiplier: j, answer: i * j});
       }
     }
   }
