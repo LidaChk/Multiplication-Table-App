@@ -17,6 +17,7 @@ const QuestionBox: React.FC<QuestionBoxProps> = ({
     if (opened) {
       toggle();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [question, answer]);
 
   return (
