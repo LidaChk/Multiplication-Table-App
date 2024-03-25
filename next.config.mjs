@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   reactStrictMode: false,
   distDir: './build',
-  //output: 'export',
+  output: process.env.NODE_ENV === 'development'? 'standalone' : 'export',
   basePath: '/Multiplication-Table-App',
   images: {
     unoptimized: true,
