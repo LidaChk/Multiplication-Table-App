@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   distDir: 'build',
-  target: 'serverless',
+  output: 'export',
 };
 
 export default nextConfig;
