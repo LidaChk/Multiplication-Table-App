@@ -33,9 +33,9 @@ const Carousel: React.FC<QuestionListParams> = (
   };
 
   return (
-    <Box>
+    <Box miw={'100%'}>
       <Flex
-        miw={320}
+        miw={'100%'}
         mih={50}
         gap="xs"
         justify="center"

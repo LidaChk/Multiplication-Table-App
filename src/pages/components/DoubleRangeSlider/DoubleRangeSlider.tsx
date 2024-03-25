@@ -28,10 +28,9 @@ const DoubleRangeSlider: React.FC = () => {
       defaultValue={[minMultiplier, maxMultiplier]}
       marks={marks}
       onChange={([min, max]) => [setMinMultiplier(min), setMaxMultiplier(max)]}
-      labelAlwaysOn
       mih={'2em'}
-      miw={320}
       color='#b344fb'
+      miw={'100%'}
     />
   );
 };
