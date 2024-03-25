@@ -4,7 +4,7 @@ const nextConfig = {
   distDir: './build',
   output: 'export',
   trailingSlash: true,
-  basePath: '/build'
+  basePath: '/Multiplication-Table-App/build'
 };
 
 export default nextConfig;
