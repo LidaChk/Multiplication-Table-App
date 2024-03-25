@@ -1,10 +1,9 @@
 import { useState, createContext, useMemo, useCallback } from 'react';
 
-import { QuestionListParams, RangeContextType } from '@/types/types';
-import { Button } from '@mantine/core';
 import DoubleRangeSlider from '../DoubleRangeSlider/DoubleRangeSlider';
 import style from './main.module.scss';
 import Carousel from '../Carousel/Carousel';
+import { RangeContextType } from '@/types/types';
 
 export const RangeContext = createContext<RangeContextType>({
   minMultiplier: 1,

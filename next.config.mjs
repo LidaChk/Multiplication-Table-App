@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: false,
   distDir: './build',
-  output: 'export',
+  //output: 'export',
   basePath: '/Multiplication-Table-App',
   images: {
     unoptimized: true,

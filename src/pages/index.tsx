@@ -1,5 +1,5 @@
 
-import { createTheme, MantineProvider, Button } from '@mantine/core';
+import { createTheme, MantineProvider } from '@mantine/core';
 import Main from './components/main/main';
 
 const theme = createTheme({
