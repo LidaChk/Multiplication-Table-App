@@ -4,6 +4,7 @@ const nextConfig = {
   distDir: './build',
   output: 'export',
   trailingSlash: true,
+  basePath: '/build'
 };
 
 export default nextConfig;
